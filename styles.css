@@ -6,9 +6,31 @@
     font-family: "Roboto", sans-serif;
   }
 
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+      
+  
+
   html {
     scroll-behavior: smooth;
   }
+  
 
   .title{
    font-size: 120px;
@@ -19,7 +41,7 @@
 
   .title--secondary,
   .orange{
-    color: #ff5349;
+    color: #fff;
   }
 
   p{
@@ -66,10 +88,11 @@
     list-style-type: none;
   }
 
-  section{
+  /*section{
     background-color: rgb(245, 245, 245);
     transition: all 300ms ease;
   }
+    */
 
   input, textarea{
     width: 100%;
@@ -156,7 +179,7 @@ input:focus, textarea:focus {
   .dark-theme .header__para,
   .dark-theme .social__list {
    /*filter: invert(1);  color: white; */
-   color: white;
+   color: orangered;
   }
 
   .dark-theme #personal-logo {
@@ -613,7 +636,7 @@ z-index: -1;
   color: #fff;
  }
 
- /* SHAPES */
+ /* SHAPES 
 
  .shape {
   position: fixed;
@@ -654,6 +677,7 @@ z-index: -1;
   top: 80vh;
   left: 80vw;
  }
+  */
 
  /*  MEDIA QUERIES
  small phones, tablets, large smart phones  */
