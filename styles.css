@@ -598,6 +598,19 @@ z-index: -1;
     margin: 16px 0;
  }
 
+ .project__list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 0;
+  list-style: none;
+}
+
+.project {
+  width: 100%;
+}
+
+
  /* FOOTER */
 
  footer{
