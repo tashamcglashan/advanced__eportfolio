@@ -41,7 +41,7 @@
 
   .title--secondary,
   .orange{
-    color: orangered;
+    color: white;
   }
 
   p{
@@ -171,6 +171,7 @@ input:focus, textarea:focus {
     transition: all 400ms;
   }
 
+  /* DARK THEME */
   .dark-theme .title,
   .dark-theme .section__title,
   .dark-theme .section__sub-title,
@@ -232,7 +233,7 @@ input:focus, textarea:focus {
    }
 
    .social__link{
-    background-color: #ff5349;
+    background-color: black;
     color: #fff;
     padding: 6px;
     width: 32px;
@@ -256,6 +257,8 @@ input:focus, textarea:focus {
     bottom: 32px;
     right: 42px;
    }
+    
+     /* SCROLL ICON */
 
    .scroll{
     position: absolute;
