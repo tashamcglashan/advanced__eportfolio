@@ -375,7 +375,7 @@ transform: translateX(0%);
 
 
 .modal__about {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(248, 244, 244);
   transform: translate(-110%);
   
   
@@ -424,6 +424,11 @@ transform: scale(1);
 
 .modal__para {
   margin-bottom: 12px;
+  
+}
+
+.modal__para b{
+  color: gray;
 }
 
 .language__name {
